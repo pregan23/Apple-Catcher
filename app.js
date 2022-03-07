@@ -8,7 +8,7 @@ const moveApple = () => {
    const apple = document.querySelector('.Apple')
    let pos = 0
    clearInterval(id)
-   id = setInterval(frame, 10);
+   id = setInterval(frame, 5);
    function frame()  {
        if (pos === 350) {
            clearInterval(id)
@@ -24,6 +24,7 @@ const moveApple = () => {
 const spawnApple = () => {
     const newApple = document.createElement('span')
     newApple.classList.add('Apple')
+    newApple.style.left = '100px'
     playArea.appendChild(newApple)
 
 }

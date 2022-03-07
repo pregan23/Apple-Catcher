@@ -1,13 +1,15 @@
 body {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    height: 100%;
     
 }
 
 h1 {
     color: red;
+    text-align: center;
 }
 
 span {
@@ -17,8 +19,8 @@ span {
 }
 
 .play-area {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     height: 400px;
     width: 400px;
     position: relative;    
