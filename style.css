@@ -15,7 +15,9 @@ h1 {
 span {
     height: 50px;
     width: 50px;
+    border-radius: 50%;
     background-color: red;
+
 }
 
 .play-area {
@@ -24,9 +26,7 @@ span {
     height: 800px;
     width: 800px;
     position: relative;    
-    /* display: flex;
-    flex-direction: column;
-    align-content: center; */
+   
     
     
 }
