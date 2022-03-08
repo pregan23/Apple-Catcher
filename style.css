@@ -13,19 +13,12 @@ h1 {
     text-align: center;
 }
 
-span {
+/* span {
     
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background-image: url("https://www.clipartmax.com/png/middle/29-294937_apple-red-apple-cartoon-png.png");
-    background-position: center;
-    background-size: contain; 
-    background-repeat: no-repeat;
-    background-color: gold;
+    
     
 
-}
+} */
 
 .play-area {
     /* display: flex;
@@ -41,5 +34,22 @@ span {
 
 .Apple {
     margin: 10px;
-    position:absolute
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("https://www.clipartmax.com/png/middle/29-294937_apple-red-apple-cartoon-png.png");
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-color: gold;
+}
+
+.Basket {
+    height: 60px;
+    width: 60px;
+    position:absolute;
+    left:50% ;
+    bottom:0px;
+    background-color: burlywood;
 }
