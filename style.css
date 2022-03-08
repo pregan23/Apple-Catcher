@@ -48,7 +48,19 @@ h1 {
     height: 60px;
     width: 60px;
     position:absolute;
-    left:50% ;
+    left:46.25% ;
     bottom:0px;
     background-color: burlywood;
+}
+.ghost {
+    opacity: 0;
+    
+
+}
+.corporeal {
+    opacity: 1;
+    color: red;
+    position:absolute;
+    left:37%;
+    bottom:50%;
 }

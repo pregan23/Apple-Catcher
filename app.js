@@ -2,8 +2,19 @@ let score = 0
 let appNum = 1
 const playArea = document.querySelector('.play-area')
 let credits = 3
+const badNews = document.querySelector('.ghost')
+const lifeCount = document.querySelector('.life-count')
 
 
+
+
+const gameOver = () => {
+    if (credits===0) {
+        badNews.classList.add('corporeal')
+        lifeCount.classList.add('ghost')
+        
+    }
+}
 
 
 //gonna need a function to spawn apples and another one to make them move
@@ -16,17 +27,21 @@ const moveApple = (appNum) => {
     clearInterval(id)
     id = setInterval(frame, 5);
     function frame()  {
-        if (pos === 750) {
-            const lives = document.querySelector('#Lives')
-            credits-=1
-            lives.innerText = credits
-            clearInterval(id)
+        if (pos !== 750) {
+            pos++;
+            apple.style.top = pos + 'px'
+            
+            
             
 
         }
         else {
-            pos++;
-            apple.style.top = pos + 'px'
+            const lives = document.querySelector('#Lives')
+            credits-=1
+            lives.innerText = credits
+            clearInterval(id)
+            gameOver()
+            
         }
     }
 
