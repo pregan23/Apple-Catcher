@@ -4,6 +4,7 @@ body {
     align-items: center;
     justify-content: center; */
     height: 100%;
+    width: 100%;
     
 }
 
@@ -25,7 +26,8 @@ span {
     justify-content: center; */
     height: 800px;
     width: 800px;
-    position: relative;    
+    position: relative; 
+    margin: 0 auto;   
    
     
     
