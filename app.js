@@ -31,6 +31,7 @@ const moveApple = (appNum) => {
  const spawnApple = () => {
      const horVal = Math.random() * (800-1);
      const newApple = document.createElement('span')
+     newApple.innerHTML = ""
      newApple.classList.add('Apple')
      newApple.id='Apple'+appNum
      newApple.style.left = horVal + 'px'
@@ -43,6 +44,13 @@ const moveApple = (appNum) => {
  
  spawnApple()
  appNum+=1
+ spawnApple()
+ appNum+=1
+ spawnApple()
+ appNum+=1
+ 
+ 
+
 
 //  appNum+=1
 //  spawnApple()
