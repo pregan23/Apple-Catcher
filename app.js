@@ -5,8 +5,54 @@ let credits = 3
 const badNews = document.querySelector('.ghost')
 const lifeCount = document.querySelector('.life-count')
 
+// console.log(basket)
+
+let modifier = 5;
+const basket = document.querySelector('#basket')
+basket.style.left   = '370px'
+document.addEventListener('keydown', (event) => {
+
+    
+    switch (event.key) {
+        
+        case 'ArrowRight': 
+            console.log(parseInt(basket.style.left));
+        
+            basket.style.left = `${parseInt(basket.style.left) + modifier}px`;
+            console.log('right')
+            break;
+        case 'ArrowLeft': 
+            basket.style.left = `${parseInt(basket.style.left) - modifier}px`;
+            console.log('left')
+            break;
+    }
+})
+
+// let modifier = 5;
+// const basket = document.querySelector('#basket')
+// document.addEventListener('keydown', (event) => {
+    
+//     let baskPos=0
+    
+//     switch (event.key) {       
+        
+
+//         case 'ArrowRight':
+//             baskPos = parseInt(basket.style.left)
+//             baskPos+=modifier
+//             console.log(baskPos) 
+//             basket.style.left = baskPos + 'px';
+//             console.log('right')
+//             break;
+//         case 'ArrowLeft':
+//             console.log(basket.style.left) 
+//             basket.style.left = `${parseInt(basket.style.left) - modifier}px`;
+//             console.log(basket.style.left)
+//             break;
+//     }
 
 
+// })
 
 const gameOver = () => {
     if (credits===0) {

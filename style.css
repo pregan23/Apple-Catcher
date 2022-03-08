@@ -42,14 +42,15 @@ h1 {
     background-size: contain; 
     background-repeat: no-repeat;
     background-color: gold;
+    
 }
 
 .Basket {
     height: 60px;
     width: 60px;
     position:absolute;
-    left:46.25% ;
-    bottom:0px;
+    top:740px;
+    left:370px;    
     background-color: burlywood;
 }
 .ghost {
