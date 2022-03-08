@@ -13,12 +13,11 @@ h1 {
     text-align: center;
 }
 
-/* span {
-    
-    
-    
+.life-count {
+    display: flex;
+    justify-content: center;
 
-} */
+}
 
 .play-area {
     /* display: flex;
