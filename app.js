@@ -7,7 +7,7 @@ const lifeCount = document.querySelector('.life-count')
 
 // console.log(basket)
 
-let modifier = 5;
+let modifier = 10;
 const basket = document.querySelector('#basket')
 basket.style.left   = '370px'
 document.addEventListener('keydown', (event) => {
@@ -113,7 +113,7 @@ const moveApple = (appNum) => {
 setInterval(() => {
     spawnApple();
     appNum+=1
-}, 1000) 
+}, 2500) 
  
 
 
