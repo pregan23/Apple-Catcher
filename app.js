@@ -15,7 +15,7 @@ const moveApple = (appNum) => {
     clearInterval(id)
     id = setInterval(frame, 5);
     function frame()  {
-        if (pos === 350) {
+        if (pos === 750) {
             clearInterval(id)
         }
         else {
@@ -42,13 +42,16 @@ const moveApple = (appNum) => {
  
  }
  
- spawnApple()
- appNum+=1
- spawnApple()
- appNum+=1
- spawnApple()
- appNum+=1
- 
+//  spawnApple()
+//  appNum+=1
+//  spawnApple()
+//  appNum+=1
+//  spawnApple()
+//  appNum+=1
+setInterval(() => {
+    spawnApple();
+    appNum+=1
+}, 1000) 
  
 
 
