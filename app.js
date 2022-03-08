@@ -43,9 +43,9 @@ const moveApple = (appNum) => {
  
  spawnApple()
  appNum+=1
- spawnApple()
- appNum+=1
- spawnApple()
+
+//  appNum+=1
+//  spawnApple()
 //  for(let i = 0; i<3;i++) {
 //      spawnApple()
 //      moveApple(i)
