@@ -5,12 +5,14 @@ body {
     justify-content: center; */
     height: 100%;
     width: auto;
+    background-color: rgb(19, 133, 19);
     
 }
 
 h1 {
-    color: red;
+    color: black;
     text-align: center;
+    
 }
 
 .life-count {
@@ -23,6 +25,7 @@ h1 {
 .play-area {
     /* display: flex;
     justify-content: center; */
+    border: solid rgb(172, 128, 72) 10px;
     height: 800px;
     background-position: center;
     background-size:900px 900px;
@@ -70,10 +73,11 @@ h1 {
     bottom:50%;
 }
 #enterscore {
-    left:45%
+    justify-content:center;
 }
 
 .high-score {
-    color: red;
-    left:50%
+    color: blue;
+    left:50%;
+    text-align: center;
 }
