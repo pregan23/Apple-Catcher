@@ -7,6 +7,7 @@ let credits = 3
 const badNews = document.querySelector('#loser')
 const lifeCount = document.querySelector('.life-count')
 const apples = document.querySelectorAll('.Apple')
+const goToScores = document.querySelector('#enterscore')
 //
 // console.log(basket)
 
@@ -37,6 +38,7 @@ document.addEventListener('keydown', (event) => {
 const gameOver = () => {
     if (credits===0) {
         badNews.classList.add('corporeal')
+        goToScores.classList.add('corporeal')
         // lifeCount.classList.add('ghost')
         // finalScore.innerText = score
         // finalScore.classList.add('corporeal')
@@ -127,12 +129,24 @@ const moveApple = (appNum) => {
  
  }
  
-
+// if (score<11) {
 setInterval(() => {
     spawnApple();
-    appNum+=15
+    appNum+=1
 }, 2500) 
- 
+// }
+// else if (score>=11 && score<21) {
+//     setInterval(() => {
+//         spawnApple();
+//         appNum+=1
+//     }, 500)
+// }
+// else {
+//     setInterval(() => {
+//         spawnApple();
+//         appNum+=1
+//     }, 1500)
+// }
 
 
 

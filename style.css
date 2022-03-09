@@ -24,6 +24,9 @@ h1 {
     /* display: flex;
     justify-content: center; */
     height: 800px;
+    background-position: center;
+    background-size:900px 900px;
+    background-repeat: no-repeat;
     width: 800px;
     position: relative; 
     margin: 0 auto;   
@@ -65,4 +68,12 @@ h1 {
     position:absolute;
     left:37%;
     bottom:50%;
+}
+#enterscore {
+    left:45%
+}
+
+.high-score {
+    color: red;
+    left:50%
 }
