@@ -15,7 +15,8 @@ h1 {
 
 .life-count {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
+    
 
 }
 
@@ -39,7 +40,7 @@ h1 {
     border-radius: 50%;
     background-image: url("https://www.clipartmax.com/png/middle/29-294937_apple-red-apple-cartoon-png.png");
     background-position: center;
-    background-size: contain; 
+    background-size:60px 60px; 
     background-repeat: no-repeat;
     background-color: gold;
     

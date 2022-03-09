@@ -1,8 +1,10 @@
 let score = 0
+const scoreBoard = document.querySelector('#Score')
+// const finalScore = document.querySelector('#final-score')
 let appNum = 1
 const playArea = document.querySelector('.play-area')
 let credits = 3
-const badNews = document.querySelector('.ghost')
+const badNews = document.querySelector('#loser')
 const lifeCount = document.querySelector('.life-count')
 const apples = document.querySelectorAll('.Apple')
 //
@@ -30,36 +32,14 @@ document.addEventListener('keydown', (event) => {
     }
 })
 
-// let modifier = 5;
-// const basket = document.querySelector('#basket')
-// document.addEventListener('keydown', (event) => {
-    
-//     let baskPos=0
-    
-//     switch (event.key) {       
-        
 
-//         case 'ArrowRight':
-//             baskPos = parseInt(basket.style.left)
-//             baskPos+=modifier
-//             console.log(baskPos) 
-//             basket.style.left = baskPos + 'px';
-//             console.log('right')
-//             break;
-//         case 'ArrowLeft':
-//             console.log(basket.style.left) 
-//             basket.style.left = `${parseInt(basket.style.left) - modifier}px`;
-//             console.log(basket.style.left)
-//             break;
-//     }
-
-
-// })
 
 const gameOver = () => {
     if (credits===0) {
         badNews.classList.add('corporeal')
         lifeCount.classList.add('ghost')
+        // finalScore.innerText = score
+        // finalScore.classList.add('corporeal')
         
     }
 }
@@ -91,14 +71,15 @@ const moveApple = (appNum) => {
             
 
         }
-        else if(pos>700 && pos<720) {
+        else if(pos>700 && pos<715) {
             let appleHor = apple.getBoundingClientRect()
             let basketPos = basket.getBoundingClientRect()
             console.log(appleHor.x)
-            if(appleHor.x> basketPos.x - 25 && appleHor.x <basketPos.x + 25) {
+            if(appleHor.x> basketPos.x - 17 && appleHor.x <basketPos.x + 17) {
                 clearInterval(id)
                 playArea.removeChild(apple)
                 score+=1
+                scoreBoard.innerText = score
                 console.log(score)
 
             }
@@ -137,39 +118,9 @@ const moveApple = (appNum) => {
 
 setInterval(() => {
     spawnApple();
-    appNum+=1
+    appNum+=15
 }, 2500) 
  
 
 
-//  appNum+=1
-//  spawnApple()
-//  for(let i = 0; i<3;i++) {
-//      spawnApple()
-//      moveApple(i)
-//  }
- 
- 
-//  moveApple()
 
-
-    // appNum+=1
-    // let currentApple = `Apple${appNum}`
-
-    // console.log(currentApple)
-    
-    // moveApple()
-
-
-
-
-
-//maybe i could pass the style.left value into the function to control where it spawns?
-
-
-
-
-// spawnApple()
-
-
-// spawnApple()
