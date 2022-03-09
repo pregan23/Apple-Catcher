@@ -96,8 +96,10 @@ const moveApple = (appNum) => {
             let basketPos = basket.getBoundingClientRect()
             console.log(appleHor.x)
             if(appleHor.x> basketPos.x - 25 && appleHor.x <basketPos.x + 25) {
-                console.log('caught')
+                clearInterval(id)
                 playArea.removeChild(apple)
+                score+=1
+                console.log(score)
 
             }
             else {
