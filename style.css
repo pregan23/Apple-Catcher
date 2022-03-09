@@ -73,6 +73,7 @@ h1 {
 .corporeal {
     opacity: 1;
     color: red;
+    background-color: black;
     position:absolute;
     left:37%;
     bottom:50%;
