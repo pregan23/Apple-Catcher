@@ -6,6 +6,7 @@ body {
     height: 100%;
     width: auto;
     background-color: rgb(19, 133, 19);
+    text-align: center;
     
 }
 
@@ -26,6 +27,7 @@ h1 {
     /* display: flex;
     justify-content: center; */
     border: solid rgb(172, 128, 72) 10px;
+    border-radius: 10%;
     height: 800px;
     background-position: center;
     background-size:900px 900px;
@@ -46,9 +48,9 @@ h1 {
     border-radius: 50%;
     background-image: url("https://www.clipartmax.com/png/middle/29-294937_apple-red-apple-cartoon-png.png");
     background-position: center;
-    background-size:60px 60px; 
+    background-size:80px 80px; 
     background-repeat: no-repeat;
-    background-color: gold;
+    
     
 }
 
@@ -80,4 +82,13 @@ h1 {
     color: blue;
     left:50%;
     text-align: center;
+}
+
+li {
+    font-size: 30px;
+}
+
+img {
+    border: solid rgb(172, 128, 72) 10px;
+    border-radius: 10%;
 }
