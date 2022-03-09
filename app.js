@@ -37,7 +37,7 @@ document.addEventListener('keydown', (event) => {
 const gameOver = () => {
     if (credits===0) {
         badNews.classList.add('corporeal')
-        lifeCount.classList.add('ghost')
+        // lifeCount.classList.add('ghost')
         // finalScore.innerText = score
         // finalScore.classList.add('corporeal')
         
@@ -61,11 +61,16 @@ const moveApple = (appNum) => {
     id = setInterval(frame, 5);
     function frame()  {
         if (pos === 750) {
-            const lives = document.querySelector('#Lives')
-            credits-=1
-            lives.innerText = credits
-            clearInterval(id)
-            gameOver()
+            if (credits>0) {
+                const lives = document.querySelector('#Lives')
+                credits-=1
+                lives.innerText = credits
+                clearInterval(id)
+                gameOver()
+            }
+            else {
+                clearInterval(id)
+            }
             
             
             
@@ -76,12 +81,19 @@ const moveApple = (appNum) => {
             let basketPos = basket.getBoundingClientRect()
             console.log(appleHor.x)
             if(appleHor.x> basketPos.x - 17 && appleHor.x <basketPos.x + 17) {
-                clearInterval(id)
-                playArea.removeChild(apple)
-                score+=1
-                scoreBoard.innerText = score
-                console.log(score)
+                if (credits>0) {
+                    clearInterval(id)
+                    playArea.removeChild(apple)
+                    score+=1
+                    scoreBoard.innerText = score
+                    console.log(score)
+                    
+                }
+                else {
+                    pos++;
+                    apple.style.top = pos + 'px'
 
+                }
             }
             else {
                 pos++;
