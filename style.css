@@ -17,8 +17,11 @@ h1 {
 }
 
 .life-count {
+    padding: 0 50px 0 50px;
     display: flex;
     justify-content:space-evenly;
+    
+    
     
 
 }
