@@ -60,10 +60,15 @@ h1 {
 .Basket {
     height: 60px;
     width: 60px;
+    border-radius: 10%;
     position:absolute;
     top:740px;
-    left:370px;    
-    background-color: burlywood;
+    left:370px;
+    background-image: url("https://thumbs.dreamstime.com/b/basket-texture-wooden-seamless-pattern-31172084.jpg"); 
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;   
+    /* background-color: burlywood; */
 }
 .ghost {
     opacity: 0;

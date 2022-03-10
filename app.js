@@ -78,7 +78,7 @@ const moveApple = (appNum) => {
             
 
         }
-        else if(pos>700 && pos<715) {
+        else if(pos>700 && pos<715) { //comparing horizontal positions of apple and basket when apple is at certain height
             let appleHor = apple.getBoundingClientRect()
             let basketPos = basket.getBoundingClientRect()
             console.log(appleHor.x)
