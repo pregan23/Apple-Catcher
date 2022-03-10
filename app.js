@@ -11,6 +11,9 @@ const goToScores = document.querySelector('#enterscore')
 //
 // console.log(basket)
 
+
+// const playAgain
+
 let modifier = 10;
 const basket = document.querySelector('#basket')
 basket.style.left   = '370px'
@@ -62,7 +65,7 @@ const moveApple = (appNum) => {
     clearInterval(id)
     id = setInterval(frame, 5);
     function frame()  {
-        if (pos === 750) {
+        if (pos === 550) {
             if (credits>0) {
                 const lives = document.querySelector('#Lives')
                 credits-=1
@@ -78,7 +81,7 @@ const moveApple = (appNum) => {
             
 
         }
-        else if(pos>700 && pos<715) { //comparing horizontal positions of apple and basket when apple is at certain height
+        else if(pos>500 && pos<515) { //comparing horizontal positions of apple and basket when apple is at certain height
             let appleHor = apple.getBoundingClientRect()
             let basketPos = basket.getBoundingClientRect()
             console.log(appleHor.x)
@@ -116,7 +119,7 @@ const moveApple = (appNum) => {
  }
  
  const spawnApple = () => {
-     const horVal = Math.random() * (750-1);
+     const horVal = Math.random() * (550-1);
      const newApple = document.createElement('span')
      newApple.innerHTML = ""
      newApple.classList.add('Apple')
@@ -130,10 +133,13 @@ const moveApple = (appNum) => {
  }
  
 // if (score<11) {
+
+
 setInterval(() => {
     spawnApple();
     appNum+=1
-}, 2500) 
+    
+}, 2000) 
 // }
 // else if (score>=11 && score<21) {
 //     setInterval(() => {

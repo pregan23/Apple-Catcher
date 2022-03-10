@@ -31,11 +31,11 @@ h1 {
     justify-content: center; */
     border: solid rgb(172, 128, 72) 10px;
     border-radius: 10%;
-    height: 800px;
+    height: 600px;
     background-position: center;
-    background-size:900px 900px;
+    background-size:700px 700px;
     background-repeat: no-repeat;
-    width: 800px;
+    width: 600px;
     position: relative; 
     margin: 0 auto;   
    
@@ -62,7 +62,7 @@ h1 {
     width: 60px;
     border-radius: 10%;
     position:absolute;
-    top:740px;
+    top:540px;
     left:370px;
     background-image: url("https://thumbs.dreamstime.com/b/basket-texture-wooden-seamless-pattern-31172084.jpg"); 
     background-size: contain;
@@ -80,7 +80,7 @@ h1 {
     color: red;
     background-color: black;
     position:absolute;
-    left:37%;
+    left:35%;
     bottom:50%;
 }
 #enterscore {
@@ -95,6 +95,7 @@ h1 {
 
 li {
     font-size: 30px;
+    list-style: none;
 }
 
 img {
