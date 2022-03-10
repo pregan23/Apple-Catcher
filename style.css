@@ -7,6 +7,7 @@ body {
     width: auto;
     background-color: rgb(19, 133, 19);
     text-align: center;
+    font-family: 'Patrick Hand', cursive;
     
 }
 
@@ -17,9 +18,12 @@ h1 {
 }
 
 .life-count {
-    padding: 0 50px 0 50px;
+    
     display: flex;
     justify-content:space-evenly;
+    position: relative;
+    
+    
     
     
     
@@ -80,7 +84,7 @@ h1 {
     color: red;
     background-color: black;
     position:absolute;
-    left:35%;
+    left:39%;
     bottom:50%;
 }
 #enterscore {

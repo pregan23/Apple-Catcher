@@ -14,25 +14,29 @@ const lives = document.querySelector('#Lives')
 
 
 
-const playAgain = () => {
+// const playAgain = () => {
     
-    const currentApples = document.querySelectorAll('.Apple')
-    for (let i =0;i<currentApples.length;i++) {
+//     const currentApples = document.querySelectorAll('.Apple')
+//     for (let i =0;i<currentApples.length;i++) {
         
-        playArea.removeChild(currentApples[i])
+//         playArea.removeChild(currentApples[i])
         
         
-    }
+//     }
     
-    score = 0
-    scoreBoard.innerText = score
-    credits = 3
-    lives.innerText = credits
-    badNews.classList.remove('corporeal')
+//     score = 0
+//     scoreBoard.innerText = score
+//     credits = 3
+//     lives.innerText = credits
+//     badNews.classList.remove('corporeal')
     
-}
+// }
 
-clearButton.addEventListener('click', playAgain)
+clearButton.addEventListener('click', ()=>{
+    location.reload()
+}
+    
+    )
 
 let modifier = 10;
 const basket = document.querySelector('#basket')

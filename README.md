@@ -6,6 +6,7 @@
 
 [Trello](https://trello.com/b/E969mYHl/apple-catching)
 
+
 <!-- [Search](http://duckduckgo.com) | [Reddit](http://reddit.com) | [Coding Help](http://w3schools.com) --> 
 <!-- maybe ill need this links section later, link to resources?   -->
 ---
@@ -47,6 +48,12 @@
 - [x] ~~Strikethrough~~ Items Also
 
 ### **_Credits_**
+
+### [Background: The Hungry JPEG](https://media1.thehungryjpeg.com/thumbs2/ori_3489674_ae138c1c790705db1753e27e66a251f9469a3716_cartoon-seamless-forest-vector-background-for-smartphone-app-and-compu.jpg)
+
+### [Apple: Clip Art Max](https://www.clipartmax.com/png/middle/29-294937_apple-red-apple-cartoon-png.png)
+
+### [Basket: Dreamstime](https://thumbs.dreamstime.com/b/basket-texture-wooden-seamless-pattern-31172084.jpg)
 
 <!-- ### **Houses**: [DuckDuckGo Search](http://www.duckduckgo.com) -->
 
