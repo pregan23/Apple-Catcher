@@ -7,12 +7,32 @@ let credits = 3
 const badNews = document.querySelector('#loser')
 const lifeCount = document.querySelector('.life-count')
 const apples = document.querySelectorAll('.Apple')
-const goToScores = document.querySelector('#enterscore')
-//
-// console.log(basket)
+// const goToScores = document.querySelector('#enterscore')
+const clearButton = document.querySelector('#play-again')
+const lives = document.querySelector('#Lives')
 
 
-// const playAgain
+
+
+const playAgain = () => {
+    
+    const currentApples = document.querySelectorAll('.Apple')
+    for (let i =0;i<currentApples.length;i++) {
+        
+        playArea.removeChild(currentApples[i])
+        
+        
+    }
+    
+    score = 0
+    scoreBoard.innerText = score
+    credits = 3
+    lives.innerText = credits
+    badNews.classList.remove('corporeal')
+    
+}
+
+clearButton.addEventListener('click', playAgain)
 
 let modifier = 10;
 const basket = document.querySelector('#basket')
@@ -41,10 +61,8 @@ document.addEventListener('keydown', (event) => {
 const gameOver = () => {
     if (credits===0) {
         badNews.classList.add('corporeal')
-        goToScores.classList.add('corporeal')
-        // lifeCount.classList.add('ghost')
-        // finalScore.innerText = score
-        // finalScore.classList.add('corporeal')
+        
+        
         
     }
 }
@@ -62,15 +80,18 @@ const moveApple = (appNum) => {
     
     // console.log(basketPos)
     let pos = 0
+    
     clearInterval(id)
     id = setInterval(frame, 5);
     function frame()  {
-        if (pos === 550) {
+        console.log(pos)
+        if (pos === 549) {
             if (credits>0) {
-                const lives = document.querySelector('#Lives')
+                console.log ('death')
+                
+                clearInterval(id)
                 credits-=1
                 lives.innerText = credits
-                clearInterval(id)
                 gameOver()
             }
             else {
@@ -84,14 +105,13 @@ const moveApple = (appNum) => {
         else if(pos>500 && pos<515) { //comparing horizontal positions of apple and basket when apple is at certain height
             let appleHor = apple.getBoundingClientRect()
             let basketPos = basket.getBoundingClientRect()
-            console.log(appleHor.x)
             if(appleHor.x> basketPos.x - 17 && appleHor.x <basketPos.x + 17) {
                 if (credits>0) {
                     clearInterval(id)
                     playArea.removeChild(apple)
                     score+=1
                     scoreBoard.innerText = score
-                    console.log(score)
+                    
                     
                 }
                 else {
@@ -132,13 +152,13 @@ const moveApple = (appNum) => {
  
  }
  
-// if (score<11) {
+
 
 
 setInterval(() => {
     spawnApple();
     appNum+=1
-    
+        
 }, 2000) 
 // }
 // else if (score>=11 && score<21) {
