@@ -31,6 +31,9 @@
 
 ### **_Screenshots_**
 
+(https://imgur.com/a/v5Y2s8Y)
+(https://imgur.com/a/3BvuomN)
+
 ### Coming soon
 
 <!-- - ### My Dream Home

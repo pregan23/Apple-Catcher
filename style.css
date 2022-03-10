@@ -1,8 +1,4 @@
 body {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
     height: 100%;
     width: auto;
     background-color: rgb(19, 133, 19);
@@ -22,17 +18,9 @@ h1 {
     display: flex;
     justify-content:space-evenly;
     position: relative;
-    
-    
-    
-    
-    
-
 }
 
 .play-area {
-    /* display: flex;
-    justify-content: center; */
     border: solid rgb(172, 128, 72) 10px;
     border-radius: 10%;
     height: 600px;
@@ -41,10 +29,7 @@ h1 {
     background-repeat: no-repeat;
     width: 600px;
     position: relative; 
-    margin: 0 auto;   
-   
-    
-    
+    margin: 0 auto;    
 }
 
 .Apple {
@@ -56,9 +41,7 @@ h1 {
     background-image: url("https://www.clipartmax.com/png/middle/29-294937_apple-red-apple-cartoon-png.png");
     background-position: center;
     background-size:80px 80px; 
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat;    
 }
 
 .Basket {
@@ -72,11 +55,9 @@ h1 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;   
-    /* background-color: burlywood; */
-}
+   }
 .ghost {
-    opacity: 0;
-    
+    opacity: 0;   
 
 }
 .corporeal {
