@@ -2,18 +2,22 @@
 
 ## Date 3/11/2022
 
-### By: Patrick Regan
+### By: Patrick Regan [Github](https://github.com/pregan23)
 
 [Apple Catcher](http://apple-catcher-game.surge.sh/)
 
 [Trello](https://trello.com/b/E969mYHl/apple-catching)
 
 
-<!-- [Search](http://duckduckgo.com) | [Reddit](http://reddit.com) | [Coding Help](http://w3schools.com) --> 
-<!-- maybe ill need this links section later, link to resources?   -->
+
 ---
 
 ### **_Hope you're hungry!  The apples are ripe and ready to fall, but are you ready to harvest?  Keep your wits about you and become the greatest Apple Catcher of all time!_**
+
+### **_Screenshots_**
+
+(https://imgur.com/a/v5Y2s8Y)
+(https://imgur.com/a/3BvuomN)
 
 ### **_Technologies Used_**
 
@@ -30,11 +34,6 @@
 - If an apple hits the ground, you will lose 1 life.
 
 - Lose all 3 lives and it's game over!
-
-### **_Screenshots_**
-
-(https://imgur.com/a/v5Y2s8Y)
-(https://imgur.com/a/3BvuomN)
 
 ### Coming soon
 
