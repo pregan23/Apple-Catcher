@@ -9,27 +9,10 @@ const apples = document.querySelectorAll('.Apple')
 const clearButton = document.querySelector('#play-again')
 const lives = document.querySelector('#Lives')
 
-const playAgain = () => {
-    location.reload()
-
-    
-    
-//     // const currentApples = document.querySelectorAll('.Apple')
-//     // for (let i =0;i<currentApples.length;i++) {
-        
-//     //     playArea.removeChild(currentApples[i])
-//     score = 0
-//     scoreBoard.innerText = score
-//     credits = 3
-//     lives.innerText = credits
-//     badNews.classList.remove('corporeal')
-      
+const playAgain = () => {    
+    location.reload()      
     }
-    
-    
-    
-
-
+  
 clearButton.addEventListener('click', playAgain)
 
 let modifier = 10;
@@ -39,33 +22,24 @@ document.addEventListener('keydown', (event) => {
      
     switch (event.key) {
         
-        case 'ArrowRight': 
-                        
-            basket.style.left = `${parseInt(basket.style.left) + modifier}px`;
-            
+        case 'ArrowRight':                        
+            basket.style.left = `${parseInt(basket.style.left) + modifier}px`;            
             break;
+
         case 'ArrowLeft': 
-            basket.style.left = `${parseInt(basket.style.left) - modifier}px`;
-            
+            basket.style.left = `${parseInt(basket.style.left) - modifier}px`;            
             break;
     }
 })
 
-
-
 const gameOver = () => {
     if (credits===0) {
         badNews.classList.add('corporeal')
-        
-        
-        
+               
     }
 }
-//gonna need a function to spawn apples and another one to make them move
-//spawn apples as span elements?
 
-//think i need to nest an if statement within an if statement within move apple
-//first if checks if apple is in a relevant vertical range, second if should compare basket horizontal value to apples. if applicable, give point, make disappear and/or invisible
+//first if checks if apple is in a relevant vertical range, second if should compare basket horizontal value to apples. if applicable, give point, remove apple
 const moveApple = (appNum) => {
     let id = null
     let apple = document.querySelector('#Apple'+CSS.escape(appNum))
@@ -73,12 +47,10 @@ const moveApple = (appNum) => {
     
     clearInterval(id)
     id = setInterval(frame, 5);
-    function frame()  {
-        console.log(pos)
+    function frame()  {        
         if (pos === 549) {
             if (credits>0) {
-                console.log ('death')
-                
+
                 clearInterval(id)
                 credits-=1
                 lives.innerText = credits
@@ -97,13 +69,11 @@ const moveApple = (appNum) => {
                     clearInterval(id)
                     playArea.removeChild(apple)
                     score+=1
-                    scoreBoard.innerText = score
-                        
+                    scoreBoard.innerText = score                        
                 }
-                else {
+                else {  //movement
                     pos++;
                     apple.style.top = pos + 'px'
-
                 }
             }
             else {
@@ -122,7 +92,7 @@ const moveApple = (appNum) => {
  }
  
  const spawnApple = () => {
-     const horVal = Math.random() * (550-1);
+     const horVal = Math.random() * (550-1); //spawning at random point on top of play-area
      const newApple = document.createElement('span')
      newApple.innerHTML = ""
      newApple.classList.add('Apple')
@@ -138,7 +108,3 @@ setInterval(() => {
     spawnApple();
     appNum+=1      
 }, 2000) 
-
-
-
-

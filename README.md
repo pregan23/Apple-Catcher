@@ -56,6 +56,8 @@
 
 ### [Sign: Clip Art Best](http://www.clipartbest.com/cliparts/7Ta/64X/7Ta64XeRc.png)
 
+### [Basket of Apples](https://i0.wp.com/blessedbeyondcrazy.com/wp-content/uploads/2016/08/vvv-0216-img_0278-1-1130-e1471666963489.jpg?resize=1200%2C800&ssl=1)
+
 <!-- ### **Houses**: [DuckDuckGo Search](http://www.duckduckgo.com) -->
 
 ### **Knowledge and Knowhow**: [General Assembly](https://generalassemb.ly/), [Github](https://github.com/), [W3 Schools](https://www.w3schools.com/), [MDN] (https://developer.mozilla.org/en-US/)

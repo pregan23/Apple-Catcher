@@ -3,8 +3,7 @@ body {
     width: auto;
     background-color: rgb(19, 133, 19);
     text-align: center;
-    font-family: 'Patrick Hand', cursive;
-    
+    font-family: 'Patrick Hand', cursive;    
 }
 
 h1 {
@@ -12,11 +11,8 @@ h1 {
     text-align: center;
     background-position: center;
     background-size: 300px 700px;
-    background-repeat: no-repeat;
-    
-    
+    background-repeat: no-repeat;    
 }
-
 
 .life-count {
     
@@ -60,10 +56,11 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;   
    }
-.ghost {
-    opacity: 0;   
 
+.ghost {
+    opacity: 0;
 }
+
 .corporeal {
     opacity: 1;
     color: red;
@@ -72,6 +69,7 @@ h1 {
     left:39%;
     bottom:50%;
 }
+
 #enterscore {
     justify-content:center;
 }
