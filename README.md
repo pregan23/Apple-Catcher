@@ -15,8 +15,8 @@
 ### **_Hope you're hungry!  The apples are ripe and ready to fall, but are you ready to harvest?  Keep your wits about you and become the greatest Apple Catcher of all time!_**
 
 ### **_Screenshots_**
-### [1](https://imgur.com/a/v5Y2s8Y)
-### [2](https://imgur.com/a/3BvuomN)
+### [1](https://imgur.com/a/3c3rhrY)
+### [2](https://imgur.com/a/dpgR1w3)
 
 
 ### **_Technologies Used_**
