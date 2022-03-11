@@ -59,4 +59,4 @@
 
 <!-- ### **Houses**: [DuckDuckGo Search](http://www.duckduckgo.com) -->
 
-### **Knowledge and Knowhow**: [General Assembly](https://generalassemb.ly/), [Github](https://github.com/), [W3 Schools](https://www.w3schools.com/), [MDN] (https://developer.mozilla.org/en-US/)
+### **Knowledge and Knowhow**: [General Assembly](https://generalassemb.ly/), [Github](https://github.com/), [W3 Schools](https://www.w3schools.com/), [MDN](https://developer.mozilla.org/en-US/)
