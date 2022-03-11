@@ -8,29 +8,29 @@ const lifeCount = document.querySelector('.life-count')
 const apples = document.querySelectorAll('.Apple')
 const clearButton = document.querySelector('#play-again')
 const lives = document.querySelector('#Lives')
-// const playAgain = () => {
+
+const playAgain = () => {
+    location.reload()
+
     
-//     const currentApples = document.querySelectorAll('.Apple')
-//     for (let i =0;i<currentApples.length;i++) {
-        
-//         playArea.removeChild(currentApples[i])
-        
-        
-//     }
     
+//     // const currentApples = document.querySelectorAll('.Apple')
+//     // for (let i =0;i<currentApples.length;i++) {
+        
+//     //     playArea.removeChild(currentApples[i])
 //     score = 0
 //     scoreBoard.innerText = score
 //     credits = 3
 //     lives.innerText = credits
 //     badNews.classList.remove('corporeal')
+      
+    }
     
-// }
+    
+    
 
-clearButton.addEventListener('click', ()=>{
-    location.reload()
-}
-    
-    )
+
+clearButton.addEventListener('click', playAgain)
 
 let modifier = 10;
 const basket = document.querySelector('#basket')

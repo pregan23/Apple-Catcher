@@ -4,6 +4,8 @@
 
 ### By: Patrick Regan
 
+[Apple Catcher]
+
 [Trello](https://trello.com/b/E969mYHl/apple-catching)
 
 
@@ -21,13 +23,13 @@
 
 - Javscript
 
-### **_Getting Started_**
+<!-- ### **_Getting Started_**
 
 - Plan your code on paper
 
 - Achieve small goals piece by piece
 
-- Get all your code to play nice
+- Get all your code to play nice -->
 
 ### **_Screenshots_**
 
@@ -36,19 +38,13 @@
 
 ### Coming soon
 
-<!-- - ### My Dream Home
-
-  ![My Dream Home](https://cdn10.phillymag.com/wp-content/uploads/sites/3/2019/01/lokal-a-frame-cabin.jpg)
-
-- ### My Nightmare Home
-  ![My Nightmare Home](https://1funny.com/wp-content/uploads/2010/05/bad-teeth-house-e1272839635713.jpg) -->
-<!-- definitely add screenshots of game later -->
+<
 ### **_Future Updates_**
 
-- [ ] Future Update 1
-- [ ] Future Update 2
-- [x] Completed Update
-- [x] ~~Strikethrough~~ Items Also
+- [ ] Play Again without page reload
+- [ ] Best Score
+- [x] Gameplay tuning
+<!-- - [x] ~~Strikethrough~~ Items Also -->
 
 ### **_Credits_**
 
@@ -58,6 +54,8 @@
 
 ### [Basket: Dreamstime](https://thumbs.dreamstime.com/b/basket-texture-wooden-seamless-pattern-31172084.jpg)
 
+### [Sign: Clip Art Best](http://www.clipartbest.com/cliparts/7Ta/64X/7Ta64XeRc.png)
+
 <!-- ### **Houses**: [DuckDuckGo Search](http://www.duckduckgo.com) -->
 
-### **Knowledge and Knowhow**: [General Assembly](https://generalassemb.ly/) and [Github](https://github.com/SEI-R-2-22/u1_hw_markdown)
+### **Knowledge and Knowhow**: [General Assembly](https://generalassemb.ly/), [Github](https://github.com/), [W3 Schools](https://www.w3schools.com/), [MDN] (https://developer.mozilla.org/en-US/)
