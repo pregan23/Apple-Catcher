@@ -4,7 +4,7 @@
 
 ### By: Patrick Regan
 
-[Apple Catcher]
+[Apple Catcher](http://apple-catcher-game.surge.sh/)
 
 [Trello](https://trello.com/b/E969mYHl/apple-catching)
 
@@ -23,13 +23,13 @@
 
 - Javscript
 
-<!-- ### **_Getting Started_**
+### **_Getting Started_**
 
-- Plan your code on paper
+- Use your arrow keys to catch the apples as they fall.
 
-- Achieve small goals piece by piece
+- If an apple hits the ground, you will lose 1 life.
 
-- Get all your code to play nice -->
+- Lose all 3 lives and it's game over!
 
 ### **_Screenshots_**
 
