@@ -35,9 +35,7 @@
 
 - Lose all 3 lives and it's game over!
 
-### Coming soon
 
-<
 ### **_Future Updates_**
 
 - [ ] Play Again without page reload
